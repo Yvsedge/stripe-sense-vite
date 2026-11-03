@@ -1,0 +1,414 @@
+[
+  {
+    "file": "01-light-palette.png",
+    "title": "Light palette",
+    "synthetic": true,
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "expected": [
+      {
+        "name": "Glucose",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [234, 208, 125],
+        "referenceRgb": [230, 211, 123],
+        "deltaE": 3.63,
+        "ambiguous": false
+      },
+      {
+        "name": "Bilirubin",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [245, 216, 172],
+        "referenceRgb": [241, 220, 169],
+        "deltaE": 4.61,
+        "ambiguous": false
+      },
+      {
+        "name": "Ketones",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [244, 210, 189],
+        "referenceRgb": [240, 213, 185],
+        "deltaE": 4.38,
+        "ambiguous": false
+      },
+      {
+        "name": "Specific gravity",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [99, 149, 146],
+        "referenceRgb": [95, 153, 144],
+        "deltaE": 4.59,
+        "ambiguous": false
+      },
+      {
+        "name": "Blood",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [233, 206, 115],
+        "referenceRgb": [229, 209, 112],
+        "deltaE": 3.89,
+        "ambiguous": false
+      },
+      {
+        "name": "pH",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [235, 157, 103],
+        "referenceRgb": [231, 161, 99],
+        "deltaE": 4.78,
+        "ambiguous": false
+      },
+      {
+        "name": "Protein",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [237, 215, 137],
+        "referenceRgb": [233, 218, 135],
+        "deltaE": 3.63,
+        "ambiguous": false
+      },
+      {
+        "name": "Urobilinogen",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [243, 203, 179],
+        "referenceRgb": [239, 207, 176],
+        "deltaE": 4.64,
+        "ambiguous": false
+      },
+      {
+        "name": "Nitrite",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [244, 218, 198],
+        "referenceRgb": [240, 221, 194],
+        "deltaE": 4.39,
+        "ambiguous": false
+      },
+      {
+        "name": "Leukocytes",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [237, 216, 192],
+        "referenceRgb": [233, 220, 190],
+        "deltaE": 4.3,
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "file": "02-mixed-palette.png",
+    "title": "Mixed palette",
+    "synthetic": true,
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "expected": [
+      {
+        "name": "Glucose",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [235, 208, 125],
+        "referenceRgb": [230, 211, 123],
+        "deltaE": 3.95,
+        "ambiguous": false
+      },
+      {
+        "name": "Bilirubin",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [220, 157, 115],
+        "referenceRgb": [215, 161, 112],
+        "deltaE": 4.91,
+        "ambiguous": false
+      },
+      {
+        "name": "Ketones",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [151, 88, 150],
+        "referenceRgb": [146, 91, 146],
+        "deltaE": 4.63,
+        "ambiguous": false
+      },
+      {
+        "name": "Specific gravity",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [100, 149, 146],
+        "referenceRgb": [95, 153, 144],
+        "deltaE": 4.78,
+        "ambiguous": false
+      },
+      {
+        "name": "Blood",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [153, 171, 103],
+        "referenceRgb": [148, 174, 100],
+        "deltaE": 4.4,
+        "ambiguous": false
+      },
+      {
+        "name": "pH",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [88, 150, 150],
+        "referenceRgb": [83, 154, 146],
+        "deltaE": 5.71,
+        "ambiguous": false
+      },
+      {
+        "name": "Protein",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [238, 215, 137],
+        "referenceRgb": [233, 218, 135],
+        "deltaE": 3.94,
+        "ambiguous": false
+      },
+      {
+        "name": "Urobilinogen",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [227, 151, 152],
+        "referenceRgb": [222, 155, 149],
+        "deltaE": 4.84,
+        "ambiguous": false
+      },
+      {
+        "name": "Nitrite",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [209, 115, 161],
+        "referenceRgb": [204, 118, 157],
+        "deltaE": 4.36,
+        "ambiguous": false
+      },
+      {
+        "name": "Leukocytes",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [203, 165, 196],
+        "referenceRgb": [198, 169, 194],
+        "deltaE": 4.65,
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "file": "03-deep-palette.png",
+    "title": "Deep palette",
+    "synthetic": true,
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "expected": [
+      {
+        "name": "Glucose",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [98, 132, 144],
+        "referenceRgb": [92, 135, 142],
+        "deltaE": 4.42,
+        "ambiguous": false
+      },
+      {
+        "name": "Bilirubin",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [180, 111, 103],
+        "referenceRgb": [174, 115, 100],
+        "deltaE": 5.3,
+        "ambiguous": false
+      },
+      {
+        "name": "Ketones",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [152, 88, 150],
+        "referenceRgb": [146, 91, 146],
+        "deltaE": 4.84,
+        "ambiguous": false
+      },
+      {
+        "name": "Specific gravity",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [221, 188, 98],
+        "referenceRgb": [215, 192, 96],
+        "deltaE": 4.95,
+        "ambiguous": false
+      },
+      {
+        "name": "Blood",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [80, 134, 113],
+        "referenceRgb": [74, 137, 110],
+        "deltaE": 4.72,
+        "ambiguous": false
+      },
+      {
+        "name": "pH",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [89, 150, 150],
+        "referenceRgb": [83, 154, 146],
+        "deltaE": 5.86,
+        "ambiguous": false
+      },
+      {
+        "name": "Protein",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [105, 162, 145],
+        "referenceRgb": [99, 165, 143],
+        "deltaE": 4.19,
+        "ambiguous": false
+      },
+      {
+        "name": "Urobilinogen",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [190, 108, 136],
+        "referenceRgb": [184, 112, 133],
+        "deltaE": 5.06,
+        "ambiguous": false
+      },
+      {
+        "name": "Nitrite",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [210, 115, 161],
+        "referenceRgb": [204, 118, 157],
+        "deltaE": 4.58,
+        "ambiguous": false
+      },
+      {
+        "name": "Leukocytes",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [159, 109, 166],
+        "referenceRgb": [153, 113, 164],
+        "deltaE": 4.92,
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "file": "04-alternate-palette.png",
+    "title": "Alternate palette",
+    "synthetic": true,
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "expected": [
+      {
+        "name": "Glucose",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [153, 180, 115],
+        "referenceRgb": [146, 183, 113],
+        "deltaE": 4.64,
+        "ambiguous": false
+      },
+      {
+        "name": "Bilirubin",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [248, 216, 172],
+        "referenceRgb": [241, 220, 169],
+        "deltaE": 5.44,
+        "ambiguous": false
+      },
+      {
+        "name": "Ketones",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [208, 143, 176],
+        "referenceRgb": [201, 146, 172],
+        "deltaE": 5.14,
+        "ambiguous": false
+      },
+      {
+        "name": "Specific gravity",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [222, 188, 98],
+        "referenceRgb": [215, 192, 96],
+        "deltaE": 5.31,
+        "ambiguous": false
+      },
+      {
+        "name": "Blood",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [236, 206, 115],
+        "referenceRgb": [229, 209, 112],
+        "deltaE": 4.85,
+        "ambiguous": false
+      },
+      {
+        "name": "pH",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [186, 178, 114],
+        "referenceRgb": [179, 182, 110],
+        "deltaE": 5.95,
+        "ambiguous": false
+      },
+      {
+        "name": "Protein",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [106, 162, 145],
+        "referenceRgb": [99, 165, 143],
+        "deltaE": 4.42,
+        "ambiguous": false
+      },
+      {
+        "name": "Urobilinogen",
+        "unit": "",
+        "label": "Simulated level 2",
+        "rgb": [229, 151, 152],
+        "referenceRgb": [222, 155, 149],
+        "deltaE": 5.41,
+        "ambiguous": false
+      },
+      {
+        "name": "Nitrite",
+        "unit": "",
+        "label": "Simulated level 1",
+        "rgb": [247, 218, 198],
+        "referenceRgb": [240, 221, 194],
+        "deltaE": 5.13,
+        "ambiguous": false
+      },
+      {
+        "name": "Leukocytes",
+        "unit": "",
+        "label": "Simulated level 3",
+        "rgb": [160, 109, 166],
+        "referenceRgb": [153, 113, 164],
+        "deltaE": 5.19,
+        "ambiguous": false
+      }
+    ]
+  }
+]

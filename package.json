@@ -1,0 +1,26 @@
+{
+  "name": "stripesense-healthcare-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "samples": "node backend/scripts/generate-samples.js",
+    "dev": "concurrently -k -n api,web \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "npm run dev --workspace=@stripesense/frontend",
+    "dev:server": "npm run dev --workspace=@stripesense/backend",
+    "start:server": "npm run start --workspace=@stripesense/backend",
+    "test": "npm run test --workspace=@stripesense/backend",
+    "build": "npm run build --workspace=@stripesense/frontend",
+    "preview": "npm run preview --workspace=@stripesense/frontend",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "prettier": "^3.6.2"
+  }
+}

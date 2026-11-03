@@ -1,0 +1,186 @@
+{
+  "name": "Fictional three-level classroom palette — NOT a medical reference",
+  "synthetic": true,
+  "pads": [
+    {
+      "name": "Glucose",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [230, 211, 123]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [146, 183, 113]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [92, 135, 142]
+        }
+      ]
+    },
+    {
+      "name": "Bilirubin",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [241, 220, 169]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [215, 161, 112]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [174, 115, 100]
+        }
+      ]
+    },
+    {
+      "name": "Ketones",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [240, 213, 185]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [201, 146, 172]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [146, 91, 146]
+        }
+      ]
+    },
+    {
+      "name": "Specific gravity",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [95, 153, 144]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [163, 174, 102]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [215, 192, 96]
+        }
+      ]
+    },
+    {
+      "name": "Blood",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [229, 209, 112]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [148, 174, 100]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [74, 137, 110]
+        }
+      ]
+    },
+    {
+      "name": "pH",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [231, 161, 99]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [179, 182, 110]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [83, 154, 146]
+        }
+      ]
+    },
+    {
+      "name": "Protein",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [233, 218, 135]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [171, 197, 140]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [99, 165, 143]
+        }
+      ]
+    },
+    {
+      "name": "Urobilinogen",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [239, 207, 176]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [222, 155, 149]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [184, 112, 133]
+        }
+      ]
+    },
+    {
+      "name": "Nitrite",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [240, 221, 194]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [229, 171, 183]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [204, 118, 157]
+        }
+      ]
+    },
+    {
+      "name": "Leukocytes",
+      "unit": "",
+      "references": [
+        {
+          "label": "Simulated level 1",
+          "rgb": [233, 220, 190]
+        },
+        {
+          "label": "Simulated level 2",
+          "rgb": [198, 169, 194]
+        },
+        {
+          "label": "Simulated level 3",
+          "rgb": [153, 113, 164]
+        }
+      ]
+    }
+  ]
+}

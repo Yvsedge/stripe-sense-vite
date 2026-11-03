@@ -1,0 +1,148 @@
+.theme-toggle {
+  gap: 8px;
+  white-space: nowrap;
+}
+.theme-toggle span {
+  font-size: 18px;
+  line-height: 1;
+}
+.auth-theme-toggle {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+}
+
+/* Screen-only theme keeps printed reports light and preserves sampled image colours. */
+@media screen {
+  [data-theme='dark'] .landing-page {
+    background: #12161c;
+    color: #e2e8f0;
+  }
+  [data-theme='dark'] .landing-description {
+    color: #adbed3;
+  }
+  :root[data-theme='dark'] {
+    color-scheme: dark;
+  }
+  :root[data-theme='dark'] body,
+  [data-theme='dark'] .workspace {
+    background: #12161c;
+    color: #e2e8f0;
+  }
+  [data-theme='dark'] .auth-page {
+    background: #12161c;
+  }
+  [data-theme='dark'] .panel,
+  [data-theme='dark'] .work-header {
+    background: #1b212a;
+    border-color: #343e49;
+    box-shadow: 0 4px 16px #00000012;
+  }
+  [data-theme='dark'] .workspace .stat,
+  [data-theme='dark'] .workspace .profile-summary,
+  [data-theme='dark'] .workspace .analysis-note,
+  [data-theme='dark'] .workspace .critical-assessment {
+    background: #212831;
+    border-color: #39444e;
+  }
+  [data-theme='dark'] .work-header nav a {
+    color: #b8c7da;
+  }
+  [data-theme='dark'] .work-header nav a.active {
+    background: #26333a;
+    color: #8cdbca;
+  }
+  [data-theme='dark'] .secondary-button {
+    background: #252d37;
+    color: #e2e8f0;
+    border-color: #475569;
+  }
+  [data-theme='dark'] .workspace :is(input, select),
+  [data-theme='dark'] .auth-card :is(input, select) {
+    background: #151b23;
+    color: #e2e8f0;
+    border-color: #475569;
+  }
+  [data-theme='dark'] input::placeholder {
+    color: #93a4ba;
+  }
+  [data-theme='dark'] .workspace input[type='file']::file-selector-button {
+    background: #26333a;
+    color: #a9e8db;
+  }
+  [data-theme='dark']
+    :is(
+      .muted,
+      .eyebrow,
+      .empty,
+      .stat span,
+      .profile-summary p,
+      .analysis-note,
+      .work-footer,
+      .workspace small
+    ) {
+    color: #adbed3;
+  }
+  [data-theme='dark'] :is(.text-link, .report-help summary) {
+    color: #8cdbca;
+  }
+  [data-theme='dark'] .empty h3 {
+    color: #e2e8f0;
+  }
+  [data-theme='dark']
+    :is(.workspace th, .profile-summary, .analysis-note, .critical-assessment) {
+    background: #212831;
+  }
+  [data-theme='dark'] .workspace th {
+    color: #b8c7da;
+  }
+  [data-theme='dark'] :is(.workspace td, .patient-row, .work-footer, .result-level) {
+    border-color: #343e49;
+  }
+  [data-theme='dark'] .pill {
+    background: #26333a;
+    border-color: #39444e;
+    color: #a9e8db;
+  }
+  [data-theme='dark'] :is(.critical-assessment p, .report-help ul) {
+    color: #b8c7da;
+  }
+  [data-theme='dark'] .image-stage {
+    background: #212831;
+  }
+  [data-theme='dark'] .image-empty {
+    border-color: #475569;
+  }
+  [data-theme='dark'] .error-box {
+    background: #3c1e2a;
+    color: #fecdd3;
+    border-color: #7d3448;
+  }
+  [data-theme='dark'] .danger-button {
+    background: #3c1e2a;
+    color: #fda4af;
+    border-color: #7d3448;
+  }
+  [data-theme='dark'] :is(.result-lower, .result-unknown) {
+    background: #212831;
+    color: #d5dfed;
+  }
+  [data-theme='dark'] .result-explanation :is(.result-middle, .result-review) {
+    background: #3b301b;
+    color: #fcd68d;
+  }
+  [data-theme='dark'] .result-explanation .result-higher {
+    background: #40212a;
+    color: #fda4af;
+  }
+  [data-theme='dark'] .crop-overlay b {
+    color: #8cdbca;
+  }
+}
+
+@media print {
+  .theme-toggle,
+  .auth-theme-toggle {
+    display: none;
+  }
+}
